@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXMtanpTQk5TdzFSTkFLcGdodW4taU8tdXJlUXxBQ3Jtc0tubXFVLW43Q2VYVFJZM0gxOG1kem5MWFFuQTNWNmdXbjBZbnVUQzFPbHROc3NiRk1Id3Bjb0xyNVJ3dExkaDMyXzdmZjdQWDh3RzE2QjN3Slo2aWNrR1piNHMwQWc0UHVhd3JoOGhEc3BEOWo3OXpWcw&q=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F79%2Fa3%2F84%2F79a384c3c449ad01b0e57e790807b2c0.gif&v=ke5xJ30bZnU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0 8%;
+}
+
+h1{
+    text-align: center;
+}
+
+

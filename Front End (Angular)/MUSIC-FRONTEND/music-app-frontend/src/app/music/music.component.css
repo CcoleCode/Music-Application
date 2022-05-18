@@ -1,0 +1,19 @@
+#post-success-alert {
+    display: none;
+}
+
+#post-success-alert {
+    opacity: 1;
+    animation: fadeInOut 4s;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0}
+    50% { opacity: 1}
+}
+
+#btn btn-primary {
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}

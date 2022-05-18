@@ -1,0 +1,30 @@
+<h1>Welcome to my angular music app!</h1>
+<hr>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary m-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Add Music
+  </button>
+
+<app-list-music></app-list-music>
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Add title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="addMusicClose"></button>
+        </div>
+        <div class="modal-body">
+            <app-add-edit-music></app-add-edit-music>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-success" role="alert" id="post-success-alert">
+    Track added successfully!
+  </div>

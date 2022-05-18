@@ -1,0 +1,48 @@
+2022-05-11 10:17:25.676  INFO 19700 --- [main] com.example.music.MusicApplication       : Starting MusicApplication using Java 13.0.2 on XPXAAD-PF30CPEZ with PID 19700 (C:\Users\ChelseaCole\git\repository3\music\target\classes started by ChelseaCole in C:\Users\ChelseaCole\git\repository3\music)
+2022-05-11 10:17:25.683  INFO 19700 --- [main] com.example.music.MusicApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-11 10:17:26.446  INFO 19700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-11 10:17:26.519  INFO 19700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2022-05-11 10:17:27.488  INFO 19700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-11 10:17:27.502  INFO 19700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-11 10:17:27.503  INFO 19700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-11 10:17:27.678  INFO 19700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-11 10:17:27.678  INFO 19700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1944 ms
+2022-05-11 10:17:27.884  INFO 19700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-11 10:17:27.956  INFO 19700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-11 10:17:28.178  INFO 19700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-11 10:17:28.317  INFO 19700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-11 10:17:28.322  WARN 19700 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-05-11 10:17:28.738  INFO 19700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-11 10:17:28.777  INFO 19700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-11 10:17:29.473  INFO 19700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-11 10:17:29.481  INFO 19700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-11 10:17:29.748  WARN 19700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-11 10:17:30.379  INFO 19700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-11 10:17:30.386  INFO 19700 --- [main] com.example.music.MusicApplication       : Started MusicApplication in 5.273 seconds (JVM running for 5.749)
+2022-05-11 10:17:58.298  INFO 19700 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-11 10:17:58.299  INFO 19700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-11 10:17:58.301  INFO 19700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-11 16:36:50.923  INFO 11768 --- [main] com.example.music.MusicApplication       : Starting MusicApplication using Java 13.0.2 on XPXAAD-PF30CPEZ with PID 11768 (C:\Users\ChelseaCole\git\repository3\music\target\classes started by ChelseaCole in C:\Users\ChelseaCole\git\repository3\music)
+2022-05-11 16:36:50.926  INFO 11768 --- [main] com.example.music.MusicApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-11 16:36:51.470  INFO 11768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-11 16:36:51.512  INFO 11768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-05-11 16:36:52.270  INFO 11768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-11 16:36:52.278  INFO 11768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-11 16:36:52.279  INFO 11768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-11 16:36:52.398  INFO 11768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-11 16:36:52.399  INFO 11768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1435 ms
+2022-05-11 16:36:52.547  INFO 11768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-11 16:36:52.588  INFO 11768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-11 16:36:52.720  INFO 11768 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-11 16:36:52.795  INFO 11768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-11 16:36:52.801  WARN 11768 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-05-11 16:36:53.043  INFO 11768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-11 16:36:53.066  INFO 11768 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-11 16:36:53.564  INFO 11768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-11 16:36:53.570  INFO 11768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-11 16:36:53.784  WARN 11768 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-11 16:36:54.308  INFO 11768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-11 16:36:54.315  INFO 11768 --- [main] com.example.music.MusicApplication       : Started MusicApplication in 3.775 seconds (JVM running for 4.119)
+2022-05-11 16:37:14.277  INFO 11768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-11 16:37:14.278  INFO 11768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-11 16:37:14.280  INFO 11768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
